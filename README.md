@@ -20,5 +20,5 @@ TARGET_GROUP = -123456789
 
 # TODO
 * Translate messages
-* Help Print
+* Help command
 * Integrate specific server status
