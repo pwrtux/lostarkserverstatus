@@ -14,7 +14,6 @@ def is_admin(update):  # checks whether user is admin
         return True
 
 
-# TODO: Change to english text
 def unknown(update, context):
     if is_admin(update):
         context.bot.send_message(chat_id=update.effective_chat.id, text="I'm sorry i don't know this command")
@@ -46,7 +45,7 @@ def all_stats(update, context):
                                             text=("Here is a overview of all Servers: " + "\n" + s.strip()))
 
 
-# TODO: Input fo entering specific server
+# TODO: Input fo entering specific server + Change to english text
 def stats(update, context): 
     server_stats = (LostA_servers.get_server_status("Slen")["data"]["Slen"])
     if "Ok" in server_stats:
