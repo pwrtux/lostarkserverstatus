@@ -14,7 +14,9 @@ TOKEN = "YOUR BOT TOKEN"
 ALL_ADMINS = [12345678] 
 TARGET_GROUP = -123456789
 ```
-
+# Usage
+* Enter `/start` to verify your admin permission. 
+* Enter `/all_stats` to view all Lost Ark server stats.
 
 # TODO
 * Translate messages
